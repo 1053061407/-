@@ -961,7 +961,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b557a7;
+  background: #ff4a5c;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1894,7 +1894,7 @@ body {
   content: ") ";
 }
 body {
-  background: url("/images/bj5.jpg");
+  background: url("/images/bj.jpg");
 }
 h1,
 h2,
