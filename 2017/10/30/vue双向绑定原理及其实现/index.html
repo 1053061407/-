@@ -61,7 +61,7 @@ MVVM模式MVVM模式就是Model–View–ViewModel模式。它实现了View的�
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3185709-b9138c159a986522.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3185709-32f0470de525fc28.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3185709-88ac3b89e1e30ec9.gif?imageMogr2/auto-orient/strip">
-<meta property="og:updated_time" content="2017-10-30T07:01:57.000Z">
+<meta property="og:updated_time" content="2017-11-08T07:11:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vue双向绑定原理及其实现">
 <meta name="twitter:description" content="MVC模式
@@ -116,7 +116,7 @@ MVVM模式MVVM模式就是Model–View–ViewModel模式。它实现了View的�
   </div>
   <p class="site-subtitle"></p>
 </div>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1297841&auto=0&height=32"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=29567192&auto=1&height=32"></iframe>
 <div class="site-nav-toggle">
   <button>
     <span class="btn-bar"></span>
@@ -313,6 +313,7 @@ MVVM模式MVVM模式就是Model–View–ViewModel模式。它实现了View的�
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">node.addEventListener(&apos;input&apos;, function(e) &#123;</div><div class="line">            var newValue = e.target.value;</div><div class="line">            if (val === newValue) &#123;</div><div class="line">                return;</div><div class="line">            &#125;</div><div class="line">            self.vm[exp] = newValue;</div><div class="line">            val = newValue;</div><div class="line">        &#125;);</div></pre></td></tr></table></figure>
 <p>self.vm[exp] = newValue;这个语句会触发mvvm中SelfValue的setter，以及触发Observer对该对象name属性的监听，即Observer中的Object.defineProperty（）中的setter。setter中有通知订阅者的函数dep.notify,Watcher收到通知后就会执行绑定的更新函数。<br>最后的最后就是效果图啦：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3185709-88ac3b89e1e30ec9.gif?imageMogr2/auto-orient/strip" alt="双向绑定"><br>相关参考链接:<a href="http://www.cnblogs.com/canfoo/p/6891868.html" target="_blank" rel="external">http://www.cnblogs.com/canfoo/p/6891868.html</a></p>
+<p>/Users/xuyunfang/Desktop/1.png</p>
 </span>
       
     </div>
@@ -528,7 +529,7 @@ MVVM模式MVVM模式就是Model–View–ViewModel模式。它实现了View的�
       <div class="footer-inner"> <div class="copyright" >
   
   &copy; 
-  <span itemprop="copyrightYear">2017</span>
+  <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="icon-next-heart fa fa-heart"></i>
   </span>
